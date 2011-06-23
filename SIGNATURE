@@ -1,0 +1,32 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.66.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 b83f5c3c5485a06d95200985439b1ae25d884113 Build.PL
+SHA1 fbbfa44dc9bfe6e3c2941e556d98b05c4939b047 LICENSE
+SHA1 cf3b40613261a0124d097028ca27f1ec3d30cb32 MANIFEST
+SHA1 8ca6e2e38708e91e4bd249dc854520a142c3cafe MANIFEST.SKIP
+SHA1 d3482cfe1400ba01ffe9c77b81941ae2bb91da6a META.json
+SHA1 6a6e8790aedd8adc63b721332c1480effd270aaf META.yml
+SHA1 1a3348950b37d20bb31743c94127da2d0629e54e README
+SHA1 7962a4c72824b1e9348d595107e40ce05ddf9184 a/AAAAAAAAA.a
+SHA1 913a62db48309ccf708d8086142b36546f3734cd aaa/AAAAAAAAA.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v2.0.16 (Darwin)
+
+iEYEARECAAYFAk4Dx7UACgkQWMohlhD1QyftOACg1ke6ZUVC36B0E8zp5esLasnm
+mX4An0fQ7AxnvCeiEaU2mGnKYnw/BJUR
+=tZ/s
+-----END PGP SIGNATURE-----
